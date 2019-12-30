@@ -1,0 +1,18 @@
+.section-navigation{
+    background-color: #2196f3;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+@media(min-width:900px) {
+    .section-navigation {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 20px;
+        height: 75vh;
+    }
+}
