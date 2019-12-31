@@ -48,7 +48,7 @@ const dectectFocus = () => {
     const destinationsTop = destinationsPosition.top;
     const destinationsBottom = destinationsPosition.bottom;
     const destinationsVisible = (destinationsTop >= 0) && (destinationsBottom <= window.innerHeight);
-    destinationsVisible ?
+    destinationsVisible && !infoVisible ?
         (
             navigationDestinations.classList.add("navigation-visible"))
         : (
