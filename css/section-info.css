@@ -18,13 +18,11 @@
     border-radius: 10px;
     padding: 20px;
 }
-.info-where {
-    grid-area: where;
+.info-where, .info-when, .info-who, .info-what {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url("https://source.unsplash.com/1600x900/?capital");
     padding: 20px;
     color: white;
     background-color: rgba(68, 62, 62, 0.7) !important;
@@ -33,61 +31,24 @@
     border-radius: 10px;
     font-size: 1.5rem;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.info-where {
+    grid-area: where;
+    background-image: url("https://source.unsplash.com/1600x900/?capital");
 }
 .info-when {
     grid-area: when;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     background-image: url("https://source.unsplash.com/1600x900/?clock");
-    padding: 20px;
-    color: white;
-    background-color: rgba(68, 62, 62, 0.7) !important;
-    background-blend-mode: color;
-    background-size: cover;
-    border-radius: 10px;
-    font-size: 1.5rem;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 .info-who {
     grid-area: who;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     background-image: url("https://source.unsplash.com/1600x900/?family");
-    padding: 20px;
-    color: white;
-    background-color: rgba(68, 62, 62, 0.7) !important;
-    background-blend-mode: color;
-    background-size: cover;
-    border-radius: 10px;
-    font-size: 1.5rem;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 .info-what {
     grid-area: what;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     background-image: url("https://source.unsplash.com/1600x900/?play");
-    padding: 20px;
-    color: white;
-    background-color: rgba(68, 62, 62, 0.7) !important;
-    background-blend-mode: color;
-    background-size: cover;
-    border-radius: 10px;
-    font-size: 1.5rem;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-    text-align: center;
 }
-.spin:hover {
-    transform: rotateY(180deg);
-    transition: transform 1s;
-    transform-style: preserve-3d;
-}
+
 @media(min-width:900px) {
     .section-info {
         display: grid;
