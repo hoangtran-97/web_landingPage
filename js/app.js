@@ -58,7 +58,6 @@ const dectectFocus = () => {
     const reviewTop = reviewPosition.top;
     const reviewBottom = reviewPosition.bottom;
     //Partial visible = true, content too large.
-    // const reviewVisible = (reviewTop >= 0) && (reviewBottom <= window.innerHeight);
     const reviewVisible = (reviewTop < window.innerHeight) && (reviewBottom >= 0);
     reviewVisible && !destinationsVisible ?
         (
