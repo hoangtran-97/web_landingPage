@@ -40,10 +40,12 @@ i {
 a {
     color: white;
     text-decoration: none;
+    text-transform: capitalize;
 }
 a:active{
     color: white;
 }
+
 .container {
     padding: 10px;
     background-color: #e9e9e9;
