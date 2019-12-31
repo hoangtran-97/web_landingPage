@@ -16,7 +16,13 @@ body {
 }
 header {
     background-color: #2196f3;
-    
+    color: white;
+    font-size: 1.2rem;
+}
+footer {
+    grid-area: ft;
+    text-align: center;
+    padding: 10px;
 }
 p {
     line-height: 20px;
@@ -89,14 +95,9 @@ a:active{
 .section-contact {
     grid-area: co;
 }
-.customer-image{
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    background-color: #2196f3;
-    padding: 3px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-    margin-bottom: 10px;
+.footer-text {
+    color: white;
+    font-size: 1.2rem;
 }
 #button-to-contact {
     display: flex;
@@ -127,9 +128,7 @@ a:active{
     text-align: center;
 }
 @media(min-width:900px) {
-    footer {
-        grid-area: ft;
-    }
+   
     .container {
         display: grid;
         grid-gap: 20px;
