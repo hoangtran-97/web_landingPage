@@ -7,7 +7,11 @@
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
-
+.navigation-visible {
+    background-color: white;
+    color: #2196f3;
+    border-radius: 10px;
+}
 @media(min-width:900px) {
     .section-navigation {
         position: -webkit-sticky;
