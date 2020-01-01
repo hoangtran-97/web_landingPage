@@ -20,6 +20,7 @@ const navigationReview = document.getElementById("navigation-review")
 const navigationContact = document.getElementById("navigation-contact")
 
 const banner = document.getElementById("banner");
+// Layout changed on mobile, element "info" is longer
 window.innerWidth > 900 ? info = document.getElementById("info") : info = document.getElementById("info-intro-card")
 const destinations = document.getElementById("destinations");
 const review = document.getElementById("review");

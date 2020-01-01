@@ -10,3 +10,4 @@ git checkout develop
 - [X] Dynamic and sticky navigation menu based on number of sections on page.
 - [X] On click smooth scoll to section.
 - [X] Current section is highlighted in navigation menu.
+- [X] Typing animation.
