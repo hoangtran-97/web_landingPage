@@ -1,4 +1,4 @@
-# web_landingPage
+# Out Of The Blue Travel Service
 Out Of The Blue Travel Service landing page.
 ## Getting started
 Clone this repo and checkout at branch "develop":
